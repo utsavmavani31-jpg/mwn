@@ -1,0 +1,508 @@
+[
+  {
+    "id": "taxi_route_change_1",
+    "level": "elevated",
+    "keywords": [
+      "route",
+      "driver"
+    ],
+    "template": "Ask calmly about the route, keep phone visible, and ask to stop at a busy place if uncomfortable."
+  },
+  {
+    "id": "taxi_route_change_2",
+    "level": "normal",
+    "keywords": [
+      "route",
+      "driver"
+    ],
+    "template": "Ask calmly about the route, keep phone visible, and ask to stop at a busy place if uncomfortable."
+  },
+  {
+    "id": "taxi_route_change_3",
+    "level": "elevated",
+    "keywords": [
+      "route",
+      "driver"
+    ],
+    "template": "Ask calmly about the route, keep phone visible, and ask to stop at a busy place if uncomfortable."
+  },
+  {
+    "id": "taxi_route_change_4",
+    "level": "urgent",
+    "keywords": [
+      "route",
+      "driver"
+    ],
+    "template": "Ask calmly about the route, keep phone visible, and ask to stop at a busy place if uncomfortable."
+  },
+  {
+    "id": "taxi_route_change_5",
+    "level": "elevated",
+    "keywords": [
+      "route",
+      "driver"
+    ],
+    "template": "Ask calmly about the route, keep phone visible, and ask to stop at a busy place if uncomfortable."
+  },
+  {
+    "id": "taxi_route_change_6",
+    "level": "elevated",
+    "keywords": [
+      "route",
+      "driver"
+    ],
+    "template": "Ask calmly about the route, keep phone visible, and ask to stop at a busy place if uncomfortable."
+  },
+  {
+    "id": "being_followed_1",
+    "level": "urgent",
+    "keywords": [
+      "follow",
+      "following"
+    ],
+    "template": "Stay calm. Move to a busy spot, call someone, and do not go home. If threatened, contact emergency services."
+  },
+  {
+    "id": "being_followed_2",
+    "level": "urgent",
+    "keywords": [
+      "follow",
+      "following"
+    ],
+    "template": "Stay calm. Move to a busy spot, call someone, and do not go home. If threatened, contact emergency services."
+  },
+  {
+    "id": "being_followed_3",
+    "level": "urgent",
+    "keywords": [
+      "follow",
+      "following"
+    ],
+    "template": "Stay calm. Move to a busy spot, call someone, and do not go home. If threatened, contact emergency services."
+  },
+  {
+    "id": "being_followed_4",
+    "level": "urgent",
+    "keywords": [
+      "follow",
+      "following"
+    ],
+    "template": "Stay calm. Move to a busy spot, call someone, and do not go home. If threatened, contact emergency services."
+  },
+  {
+    "id": "being_followed_5",
+    "level": "urgent",
+    "keywords": [
+      "follow",
+      "following"
+    ],
+    "template": "Stay calm. Move to a busy spot, call someone, and do not go home. If threatened, contact emergency services."
+  },
+  {
+    "id": "being_followed_6",
+    "level": "urgent",
+    "keywords": [
+      "follow",
+      "following"
+    ],
+    "template": "Stay calm. Move to a busy spot, call someone, and do not go home. If threatened, contact emergency services."
+  },
+  {
+    "id": "home_noise_1",
+    "level": "normal",
+    "keywords": [
+      "noise",
+      "door"
+    ],
+    "template": "Lock doors/windows, turn on lights, stay in a safe room and call for help if needed."
+  },
+  {
+    "id": "home_noise_2",
+    "level": "normal",
+    "keywords": [
+      "noise",
+      "door"
+    ],
+    "template": "Lock doors/windows, turn on lights, stay in a safe room and call for help if needed."
+  },
+  {
+    "id": "home_noise_3",
+    "level": "normal",
+    "keywords": [
+      "noise",
+      "door"
+    ],
+    "template": "Lock doors/windows, turn on lights, stay in a safe room and call for help if needed."
+  },
+  {
+    "id": "home_noise_4",
+    "level": "elevated",
+    "keywords": [
+      "noise",
+      "door"
+    ],
+    "template": "Lock doors/windows, turn on lights, stay in a safe room and call for help if needed."
+  },
+  {
+    "id": "home_noise_5",
+    "level": "normal",
+    "keywords": [
+      "noise",
+      "door"
+    ],
+    "template": "Lock doors/windows, turn on lights, stay in a safe room and call for help if needed."
+  },
+  {
+    "id": "home_noise_6",
+    "level": "urgent",
+    "keywords": [
+      "noise",
+      "door"
+    ],
+    "template": "Lock doors/windows, turn on lights, stay in a safe room and call for help if needed."
+  },
+  {
+    "id": "public_touch_1",
+    "level": "normal",
+    "keywords": [
+      "touch",
+      "grop"
+    ],
+    "template": "Move away, assertively say 'stop', move near others or the driver/guard and seek help."
+  },
+  {
+    "id": "public_touch_2",
+    "level": "normal",
+    "keywords": [
+      "touch",
+      "grop"
+    ],
+    "template": "Move away, assertively say 'stop', move near others or the driver/guard and seek help."
+  },
+  {
+    "id": "public_touch_3",
+    "level": "normal",
+    "keywords": [
+      "touch",
+      "grop"
+    ],
+    "template": "Move away, assertively say 'stop', move near others or the driver/guard and seek help."
+  },
+  {
+    "id": "public_touch_4",
+    "level": "elevated",
+    "keywords": [
+      "touch",
+      "grop"
+    ],
+    "template": "Move away, assertively say 'stop', move near others or the driver/guard and seek help."
+  },
+  {
+    "id": "public_touch_5",
+    "level": "elevated",
+    "keywords": [
+      "touch",
+      "grop"
+    ],
+    "template": "Move away, assertively say 'stop', move near others or the driver/guard and seek help."
+  },
+  {
+    "id": "public_touch_6",
+    "level": "elevated",
+    "keywords": [
+      "touch",
+      "grop"
+    ],
+    "template": "Move away, assertively say 'stop', move near others or the driver/guard and seek help."
+  },
+  {
+    "id": "late_night_walk_1",
+    "level": "normal",
+    "keywords": [
+      "night",
+      "dark"
+    ],
+    "template": "Walk toward lit areas, call someone while walking, avoid isolated routes."
+  },
+  {
+    "id": "late_night_walk_2",
+    "level": "elevated",
+    "keywords": [
+      "night",
+      "dark"
+    ],
+    "template": "Walk toward lit areas, call someone while walking, avoid isolated routes."
+  },
+  {
+    "id": "late_night_walk_3",
+    "level": "urgent",
+    "keywords": [
+      "night",
+      "dark"
+    ],
+    "template": "Walk toward lit areas, call someone while walking, avoid isolated routes."
+  },
+  {
+    "id": "late_night_walk_4",
+    "level": "elevated",
+    "keywords": [
+      "night",
+      "dark"
+    ],
+    "template": "Walk toward lit areas, call someone while walking, avoid isolated routes."
+  },
+  {
+    "id": "late_night_walk_5",
+    "level": "normal",
+    "keywords": [
+      "night",
+      "dark"
+    ],
+    "template": "Walk toward lit areas, call someone while walking, avoid isolated routes."
+  },
+  {
+    "id": "late_night_walk_6",
+    "level": "normal",
+    "keywords": [
+      "night",
+      "dark"
+    ],
+    "template": "Walk toward lit areas, call someone while walking, avoid isolated routes."
+  },
+  {
+    "id": "parking_lot_1",
+    "level": "urgent",
+    "keywords": [
+      "parking",
+      "lot"
+    ],
+    "template": "Stay near lights, keep keys ready, and walk with purpose to your vehicle. If followed, go to a store or security."
+  },
+  {
+    "id": "parking_lot_2",
+    "level": "normal",
+    "keywords": [
+      "parking",
+      "lot"
+    ],
+    "template": "Stay near lights, keep keys ready, and walk with purpose to your vehicle. If followed, go to a store or security."
+  },
+  {
+    "id": "parking_lot_3",
+    "level": "normal",
+    "keywords": [
+      "parking",
+      "lot"
+    ],
+    "template": "Stay near lights, keep keys ready, and walk with purpose to your vehicle. If followed, go to a store or security."
+  },
+  {
+    "id": "parking_lot_4",
+    "level": "normal",
+    "keywords": [
+      "parking",
+      "lot"
+    ],
+    "template": "Stay near lights, keep keys ready, and walk with purpose to your vehicle. If followed, go to a store or security."
+  },
+  {
+    "id": "parking_lot_5",
+    "level": "elevated",
+    "keywords": [
+      "parking",
+      "lot"
+    ],
+    "template": "Stay near lights, keep keys ready, and walk with purpose to your vehicle. If followed, go to a store or security."
+  },
+  {
+    "id": "parking_lot_6",
+    "level": "urgent",
+    "keywords": [
+      "parking",
+      "lot"
+    ],
+    "template": "Stay near lights, keep keys ready, and walk with purpose to your vehicle. If followed, go to a store or security."
+  },
+  {
+    "id": "bus_train_1",
+    "level": "normal",
+    "keywords": [
+      "bus",
+      "train"
+    ],
+    "template": "Move to a carriage with more people, alert staff or driver, and document the incident."
+  },
+  {
+    "id": "bus_train_2",
+    "level": "normal",
+    "keywords": [
+      "bus",
+      "train"
+    ],
+    "template": "Move to a carriage with more people, alert staff or driver, and document the incident."
+  },
+  {
+    "id": "bus_train_3",
+    "level": "elevated",
+    "keywords": [
+      "bus",
+      "train"
+    ],
+    "template": "Move to a carriage with more people, alert staff or driver, and document the incident."
+  },
+  {
+    "id": "bus_train_4",
+    "level": "elevated",
+    "keywords": [
+      "bus",
+      "train"
+    ],
+    "template": "Move to a carriage with more people, alert staff or driver, and document the incident."
+  },
+  {
+    "id": "bus_train_5",
+    "level": "elevated",
+    "keywords": [
+      "bus",
+      "train"
+    ],
+    "template": "Move to a carriage with more people, alert staff or driver, and document the incident."
+  },
+  {
+    "id": "bus_train_6",
+    "level": "normal",
+    "keywords": [
+      "bus",
+      "train"
+    ],
+    "template": "Move to a carriage with more people, alert staff or driver, and document the incident."
+  },
+  {
+    "id": "date_safety_1",
+    "level": "normal",
+    "keywords": [
+      "date",
+      "meeting"
+    ],
+    "template": "Share meeting details with a trusted contact, set a check-in, meet in public places."
+  },
+  {
+    "id": "date_safety_2",
+    "level": "elevated",
+    "keywords": [
+      "date",
+      "meeting"
+    ],
+    "template": "Share meeting details with a trusted contact, set a check-in, meet in public places."
+  },
+  {
+    "id": "date_safety_3",
+    "level": "elevated",
+    "keywords": [
+      "date",
+      "meeting"
+    ],
+    "template": "Share meeting details with a trusted contact, set a check-in, meet in public places."
+  },
+  {
+    "id": "date_safety_4",
+    "level": "elevated",
+    "keywords": [
+      "date",
+      "meeting"
+    ],
+    "template": "Share meeting details with a trusted contact, set a check-in, meet in public places."
+  },
+  {
+    "id": "date_safety_5",
+    "level": "normal",
+    "keywords": [
+      "date",
+      "meeting"
+    ],
+    "template": "Share meeting details with a trusted contact, set a check-in, meet in public places."
+  },
+  {
+    "id": "date_safety_6",
+    "level": "urgent",
+    "keywords": [
+      "date",
+      "meeting"
+    ],
+    "template": "Share meeting details with a trusted contact, set a check-in, meet in public places."
+  },
+  {
+    "id": "roommate_issue_1",
+    "level": "urgent",
+    "keywords": [
+      "roommate",
+      "friend"
+    ],
+    "template": "Prioritize your immediate safety, go to a separate room, and reach out to someone you trust."
+  },
+  {
+    "id": "roommate_issue_2",
+    "level": "normal",
+    "keywords": [
+      "roommate",
+      "friend"
+    ],
+    "template": "Prioritize your immediate safety, go to a separate room, and reach out to someone you trust."
+  },
+  {
+    "id": "roommate_issue_3",
+    "level": "normal",
+    "keywords": [
+      "roommate",
+      "friend"
+    ],
+    "template": "Prioritize your immediate safety, go to a separate room, and reach out to someone you trust."
+  },
+  {
+    "id": "roommate_issue_4",
+    "level": "urgent",
+    "keywords": [
+      "roommate",
+      "friend"
+    ],
+    "template": "Prioritize your immediate safety, go to a separate room, and reach out to someone you trust."
+  },
+  {
+    "id": "roommate_issue_5",
+    "level": "normal",
+    "keywords": [
+      "roommate",
+      "friend"
+    ],
+    "template": "Prioritize your immediate safety, go to a separate room, and reach out to someone you trust."
+  },
+  {
+    "id": "roommate_issue_6",
+    "level": "normal",
+    "keywords": [
+      "roommate",
+      "friend"
+    ],
+    "template": "Prioritize your immediate safety, go to a separate room, and reach out to someone you trust."
+  },
+  {
+    "id": "attack_imminent",
+    "level": "urgent",
+    "keywords": [
+      "attack",
+      "knife",
+      "gun"
+    ],
+    "template": "Get to a safe place immediately if you can. Contact emergency services and make noise to attract attention."
+  },
+  {
+    "id": "locked_in_room",
+    "level": "urgent",
+    "keywords": [
+      "locked",
+      "cant get out",
+      "locked in"
+    ],
+    "template": "If you are trapped and in danger, call emergency services. Try to make noise and attract attention safely."
+  }
+]

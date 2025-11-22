@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin - Edit Templates</title>
+  <style>
+    body{font-family:Arial;padding:20px;background:#f8fafc;color:#0f172a;}
+    textarea{width:100%;height:320px;font-family:monospace;padding:8px;border-radius:6px;border:1px solid #cbd5e1;}
+    button{padding:8px 12px;border-radius:6px;border:none;background:#059669;color:white;cursor:pointer;}
+    .note{color:#475569;margin-top:8px;}
+  </style>
+</head>
+<body>
+  <h2>Admin — Templates Editor</h2>
+  <p>Warning: this is an open admin endpoint for demo only. For production, add auth.</p>
+  <div>
+    <button onclick="loadTemplates()">Load Templates</button>
+    <button onclick="saveTemplates()">Save Templates</button>
+  </div>
+  <textarea id="tpls"></textarea>
+  <div class="note">Templates are JSON array. Example object keys: id, level, keywords (array), template</div>
+<script>
+async function loadTemplates(){
+  const res = await fetch('/templates');
+  const j = await res.json();
+  document.getElementById('tpls').value = JSON.stringify(j, null, 2);
+}
+async function saveTemplates(){
+  try{
+    const v = document.getElementById('tpls').value;
+    const parsed = JSON.parse(v);
+    const res = await fetch('/templates', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(parsed)});
+    const j = await res.json();
+    alert('Saved: ' + JSON.stringify(j));
+  }catch(e){
+    alert('Error: ' + e.message);
+  }
+}
+</script>
+</body>
+</html>

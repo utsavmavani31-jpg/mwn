@@ -1,0 +1,39 @@
+[
+  {
+    "id": "taxi_route_change",
+    "level": "elevated",
+    "keywords": [
+      "route",
+      "driver"
+    ],
+    "template": "I hear you \u2014 that\u2019s worrying. 1) Ask calmly: 'Could we take the original route?' 2) Keep your phone visible and ready. 3) If the driver refuses or acts strangely, ask to stop at a busy, lit place. If you feel in immediate danger, contact local emergency services."
+  },
+  {
+    "id": "being_followed",
+    "level": "urgent",
+    "keywords": [
+      "follow",
+      "following",
+      "stalking",
+      "chase"
+    ],
+    "template": "Stay calm. Move toward a busy, public place or store. Do not go home. Call a trusted contact and talk while you walk. If the person approaches or you feel threatened, contact emergency services immediately."
+  },
+  {
+    "id": "home_noise",
+    "level": "elevated",
+    "keywords": [
+      "noise",
+      "door",
+      "rattle",
+      "outside"
+    ],
+    "template": "Lock doors and windows, turn on lights, and move to a room where you can stay safe. If the noise continues or someone is trying to enter, contact emergency services."
+  },
+  {
+    "id": "general_safe_tip",
+    "level": "normal",
+    "keywords": [],
+    "template": "If you ever feel unsafe, move toward well-lit, populated areas, keep your phone in hand, and contact a trusted person. I can start a check-in for you if you want."
+  }
+]

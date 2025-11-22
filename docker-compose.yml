@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  server:
+    build: ./server
+    ports:
+      - '3000:3000'
+    environment:
+      - PORT=3000
+      # TWILIO env vars (optional)
+      # - TWILIO_SID=your_sid
+      # - TWILIO_TOKEN=your_token
+      # - TWILIO_NUMBER=+1234567890
+  client:
+    build: ./client
+    ports:
+      - '8080:80'
